@@ -1,0 +1,14 @@
+import json
+class BaseDados:
+
+    def base_conhecimento (self):
+        return json.load(open("dados_mentais.json"))
+
+{
+    "ansiedade": ["preocupacao constante", "taquicardia", "sudorese", "insônia", "agitação", "tensão muscular"],
+    "depressao": ["tristeza persistente", "fadiga", "falta de prazer", "pensamentos negativos", "baixa autoestima"],
+    "estresse": ["irritabilidade", "dificuldade de concentracao", "cansaco mental", "tensao corporal"],
+    "transtorno_panic": ["palpitacao", "sensacao de morte", "falta de ar", "medo intenso", "tontura"],
+    "burnout": ["exaustao emocional", "desmotivacao", "cansaco extremo", "apatia", "queda de desempenho"],
+    "transtorno_bipolar": ["mudancas de humor", "periodos de euforia", "impulsividade", "fases de tristeza profunda"]
+}
