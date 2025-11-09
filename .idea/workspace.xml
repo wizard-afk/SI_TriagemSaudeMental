@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a91672b-ba66-40ef-b1f7-cb888f2e9788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/avaliador.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/condicao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/principal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliador.py" beforeDir="false" afterPath="$PROJECT_DIR$/avaliador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_dados.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
