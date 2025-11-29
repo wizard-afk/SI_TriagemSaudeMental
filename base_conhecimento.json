@@ -1,0 +1,384 @@
+{
+  "config": {
+    "thresholds": {
+      "alto_risco": 0.75,
+      "medio_risco": 0.40,
+      "baixo_risco": 0.10
+    },
+    "min_match_para_sugerir": 0.3
+  },
+
+  "mappings": {
+    "triste": "tristeza_persistente",
+    "tristeza": "tristeza_persistente",
+    "deprimido": "tristeza_persistente",
+    "depressivo": "tristeza_persistente",
+    "chorando": "tristeza_persistente",
+    "choro": "tristeza_persistente",
+    "infeliz": "tristeza_persistente",
+
+    "cansado": "fadiga",
+    "cansada": "fadiga",
+    "sem energia": "fadiga",
+    "exausto": "fadiga",
+    "exausta": "fadiga",
+    "sem forças": "fadiga",
+    "esgotado": "fadiga",
+
+    "ansioso": "preocupacao_constante",
+    "ansiosa": "preocupacao_constante",
+    "preocupado": "preocupacao_constante",
+    "preocupada": "preocupacao_constante",
+    "nervoso": "preocupacao_constante",
+    "nervosa": "preocupacao_constante",
+    "apreensivo": "preocupacao_constante",
+
+    "taquicardico": "taquicardia",
+    "taquicardica": "taquicardia",
+    "coração acelerado": "taquicardia",
+    "palpitações": "taquicardia",
+
+    "sem vontade": "falta_de_prazer",
+    "nada faz sentido": "falta_de_prazer",
+    "perda de prazer": "falta_de_prazer",
+    "anedonia": "falta_de_prazer",
+    "desinteresse": "falta_de_prazer",
+
+    "insone": "insônia",
+    "insônia": "insônia",
+    "nao durmo": "insônia",
+    "nao consigo dormir": "insônia",
+    "dificuldade para dormir": "insônia",
+    "acordado a noite": "insônia",
+    "sono perturbado": "insônia",
+
+    "panico": "palpitacao",
+    "pânico": "palpitacao",
+    "palpitacao": "palpitacao",
+    "palpitação": "palpitacao",
+    "coração disparado": "palpitacao",
+
+    "automutila": "automutilacao",
+    "me cortar": "automutilacao",
+    "me machucar": "automutilacao",
+    "cortes": "automutilacao",
+    "se machucar": "automutilacao",
+    "autoflagelação": "automutilacao",
+
+    "flashback": "flashbacks",
+    "revivendo": "flashbacks",
+    "memórias intrusivas": "flashbacks",
+    "revivência": "flashbacks",
+
+    "obsessao": "pensamentos_intrusivos",
+    "obsessão": "pensamentos_intrusivos",
+    "pensamentos repetitivos": "pensamentos_intrusivos",
+    "ideias fixas": "pensamentos_intrusivos",
+
+    "compulsao": "compulsao_alimentar",
+    "compulsão": "compulsao_alimentar",
+    "comer compulsivo": "compulsao_alimentar",
+    "ataque de fome": "compulsao_alimentar",
+
+    "euforia": "periodos_de_euforia",
+    "eufórico": "periodos_de_euforia",
+    "muito animado": "periodos_de_euforia",
+    "energia excessiva": "periodos_de_euforia",
+
+    "impulsivo": "impulsividade",
+    "impulsiva": "impulsividade",
+    "agir por impulso": "impulsividade",
+    "controle perdido": "impulsividade",
+
+    "sumir": "ideacao_suicida",
+    "morrer": "ideacao_suicida",
+    "matar": "ideacao_suicida",
+    "vou me matar": "ideacao_suicida",
+    "quero morrer": "ideacao_suicida",
+    "quero acabar com tudo": "ideacao_suicida",
+    "não aguento mais viver": "ideacao_suicida",
+    "não vejo sentido em viver": "ideacao_suicida",
+    "dormir e não acordar": "ideacao_suicida",
+    "acabar com a minha vida": "ideacao_suicida",
+    "suicidar": "ideacao_suicida",
+    "sem vontade de viver": "ideacao_suicida",
+    "melhor morrer": "ideacao_suicida",
+    "acabar com tudo": "ideacao_suicida",
+    "desaparecer": "ideacao_suicida",
+    "tirar a vida": "ideacao_suicida",
+    "morte": "ideacao_suicida",
+    "suicídio": "ideacao_suicida",
+    "planejo me matar": "ideacao_suicida",
+    "vou me enforcar": "ideacao_suicida",
+    "overdose": "ideacao_suicida",
+    "pular do prédio": "ideacao_suicida",
+    "atirar em mim": "ideacao_suicida",
+    "carta de despedida": "ideacao_suicida",
+
+    "sensação de morte": "sensacao_de_morte",
+    "vou morrer": "sensacao_de_morte",
+    "morte iminente": "sensacao_de_morte",
+    "sensação de fim": "sensacao_de_morte",
+
+    "falta de ar": "falta_de_ar",
+    "sufocamento": "falta_de_ar",
+    "não consigo respirar": "falta_de_ar",
+    "asfixia": "falta_de_ar",
+
+    "medo intenso": "medo_intenso",
+    "terror": "medo_intenso",
+    "pavor": "medo_intenso",
+
+    "tontura": "tontura",
+    "vertigem": "tontura",
+    "tonto": "tontura",
+
+    "sudorese": "sudorese",
+    "suor frio": "sudorese",
+    "transpiração": "sudorese",
+
+    "agitado": "agitacao",
+    "agitação": "agitacao",
+    "inquieto": "agitacao",
+
+    "tensão muscular": "tensao_muscular",
+    "musculos tensos": "tensao_muscular",
+    "contraturas": "tensao_muscular",
+
+    "irritabilidade": "irritabilidade",
+    "irritado": "irritabilidade",
+    "raiva": "irritabilidade",
+    "pavio curto": "irritabilidade",
+
+    "dificuldade de concentração": "dificuldade_de_concentracao",
+    "não consigo me concentrar": "dificuldade_de_concentracao",
+    "atenção dispersa": "dificuldade_de_concentracao",
+
+    "cansaço mental": "cansaco_mental",
+    "esgotamento mental": "cansaco_mental",
+    "mente cansada": "cansaco_mental",
+
+    "tensão corporal": "tensao_corporal",
+    "corpo tenso": "tensao_corporal",
+
+    "pensamentos negativos": "pensamentos_negativos",
+    "visão negativa": "pensamentos_negativos",
+    "catastrofização": "pensamentos_negativos",
+
+    "baixa autoestima": "baixa_autoestima",
+    "não me valorizo": "baixa_autoestima",
+    "me sinto inútil": "baixa_autoestima",
+
+    "exaustão emocional": "exaustao_emocional",
+    "esgotamento emocional": "exaustao_emocional",
+
+    "desmotivação": "desmotivacao",
+    "sem motivação": "desmotivacao",
+    "desinteressado": "desmotivacao",
+
+    "cansaço extremo": "cansaco_extremo",
+    "exaustão total": "cansaco_extremo",
+
+    "apatia": "apatia",
+    "indiferença": "apatia",
+    "frieza emocional": "apatia",
+
+    "queda de desempenho": "queda_de_desempenho",
+    "rendimento baixo": "queda_de_desempenho",
+
+    "mudanças de humor": "mudancas_de_humor",
+    "humor instável": "mudancas_de_humor",
+    "altos e baixos": "mudancas_de_humor",
+
+    "fases de tristeza profunda": "fases_de_tristeza_profunda",
+    "tristeza intensa": "fases_de_tristeza_profunda",
+
+    "comportamentos repetitivos": "comportamentos_repetitivos",
+    "rituais": "comportamentos_repetitivos",
+    "ações repetidas": "comportamentos_repetitivos",
+
+    "angústia": "angustia",
+    "sofrimento": "angustia",
+    "aflição": "angustia",
+
+    "hipervigilância": "hipervigilancia",
+    "sempre alerta": "hipervigilancia",
+    "vigilância excessiva": "hipervigilancia",
+
+    "evitamento": "evitamento",
+    "evitar situações": "evitamento",
+    "fuga": "evitamento",
+
+    "cansaço durante o dia": "cansaco_dia",
+    "sonolência diurna": "cansaco_dia",
+
+    "preocupação com peso": "preocupacao_peso",
+    "obcecado com peso": "preocupacao_peso",
+    "imagem corporal": "preocupacao_peso",
+
+    "restrição alimentar": "restricao_alimentar",
+    "dieta rigorosa": "restricao_alimentar",
+    "parar de comer": "restricao_alimentar"
+  },
+
+  "red_flags": {
+    "ideacao_suicida": 1.0,
+    "automutilacao": 1.0,
+    "sensacao_de_morte": 0.9,
+    "impulsividade": 0.8,
+    "planos_suicidas": 1.0,
+    "tentativa_anterior": 1.0
+  },
+
+  "thresholds": {
+    "alto_risco": 0.75,
+    "medio_risco": 0.40,
+    "baixo_risco": 0.10
+  },
+
+  "condicoes": {
+    "ansiedade": {
+      "descricao": "Preocupação persistente, sintomas somáticos e agitação",
+      "sintomas": {
+        "preocupacao_constante": 1.0,
+        "taquicardia": 0.9,
+        "sudorese": 0.7,
+        "insônia": 0.6,
+        "agitacao": 0.6,
+        "tensao_muscular": 0.5,
+        "falta_de_ar": 0.7,
+        "medo_intenso": 0.8,
+        "tontura": 0.6
+      }
+    },
+
+    "depressao": {
+      "descricao": "Humor deprimido, perda de prazer e energia",
+      "sintomas": {
+        "tristeza_persistente": 1.0,
+        "fadiga": 0.9,
+        "falta_de_prazer": 0.9,
+        "pensamentos_negativos": 0.8,
+        "baixa_autoestima": 0.6,
+        "insônia": 0.5,
+        "irritabilidade": 0.7,
+        "dificuldade_de_concentracao": 0.7
+      }
+    },
+
+    "estresse": {
+      "descricao": "Sobrecarga, irritabilidade e dificuldade de concentração",
+      "sintomas": {
+        "irritabilidade": 1.0,
+        "dificuldade_de_concentracao": 0.9,
+        "cansaco_mental": 0.8,
+        "tensao_corporal": 0.6,
+        "insônia": 0.5,
+        "ansiedade": 0.7
+      }
+    },
+
+    "transtorno_panico": {
+      "descricao": "Episódios súbitos de medo intenso com sintomas físicos",
+      "sintomas": {
+        "palpitacao": 1.0,
+        "sensacao_de_morte": 0.95,
+        "falta_de_ar": 0.9,
+        "medo_intenso": 0.8,
+        "tontura": 0.6,
+        "sudorese": 0.7,
+        "tremores": 0.7
+      }
+    },
+
+    "burnout": {
+      "descricao": "Exaustão relacionada ao trabalho, desmotivação e queda de desempenho",
+      "sintomas": {
+        "exaustao_emocional": 1.0,
+        "desmotivacao": 0.9,
+        "cansaco_extremo": 0.95,
+        "apatia": 0.7,
+        "queda_de_desempenho": 0.8,
+        "irritabilidade": 0.8,
+        "insônia": 0.6
+      }
+    },
+
+    "transtorno_bipolar": {
+      "descricao": "Oscilações entre períodos de humor elevado e depressivo",
+      "sintomas": {
+        "mudancas_de_humor": 1.0,
+        "periodos_de_euforia": 0.9,
+        "impulsividade": 0.8,
+        "fases_de_tristeza_profunda": 0.8,
+        "insônia": 0.7,
+        "agitacao": 0.7
+      }
+    },
+
+    "toc": {
+      "descricao": "Pensamentos intrusivos e comportamentos repetitivos",
+      "sintomas": {
+        "pensamentos_intrusivos": 1.0,
+        "comportamentos_repetitivos": 0.95,
+        "angustia": 0.7,
+        "ansiedade": 0.8
+      }
+    },
+
+    "ptsd": {
+      "descricao": "Revivescência de um trauma, hipervigilância e flashbacks",
+      "sintomas": {
+        "flashbacks": 1.0,
+        "hipervigilancia": 0.9,
+        "evitamento": 0.8,
+        "insônia": 0.6,
+        "irritabilidade": 0.7,
+        "ansiedade": 0.8
+      }
+    },
+
+    "insomnia": {
+      "descricao": "Dificuldade em iniciar ou manter o sono",
+      "sintomas": {
+        "insônia": 1.0,
+        "cansaco_dia": 0.9,
+        "irritabilidade": 0.6,
+        "dificuldade_de_concentracao": 0.7
+      }
+    },
+
+    "transtorno_alimentar": {
+      "descricao": "Preocupação com peso/imagem, alterações de ingestão alimentar",
+      "sintomas": {
+        "preocupacao_peso": 1.0,
+        "compulsao_alimentar": 0.9,
+        "restricao_alimentar": 0.9,
+        "ansiedade": 0.7,
+        "depressao": 0.6
+      }
+    },
+
+    "crise_suicida": {
+      "descricao": "Risco iminente de suicídio com ideação e planejamento ativo",
+      "sintomas": {
+        "ideacao_suicida": 1.0,
+        "automutilacao": 0.9,
+        "planos_suicidas": 1.0,
+        "desespero": 0.8,
+        "isolamento": 0.7
+      }
+    },
+
+    "crise_ansiedade": {
+      "descricao": "Episódio agudo de ansiedade com sintomas físicos intensos",
+      "sintomas": {
+        "palpitacao": 1.0,
+        "falta_de_ar": 0.9,
+        "medo_intenso": 0.9,
+        "sensacao_de_morte": 0.8,
+        "tontura": 0.7
+      }
+    }
+  }
+}

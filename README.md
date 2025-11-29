@@ -1,2 +1,2 @@
 # SI_TriagemSaudeMental
-O projeto visa um Sistema Especialista de Triagem e Pré-diagnóstico de Saúde Mental para uso em serviços de atenção primária e teleatendimento. O sistema captura queixas em linguagem natural, identifica sintomas relevantes (ex.: humor deprimido, ansiedade, ideação suicida), classifica nível de risco (alto/médio/baixo).
+O projeto visa um Sistema Especialista de Triagem e Pré-diagnóstico de Saúde Mental para uso em serviços de atenção primária e teleatendimento. O sistema captura queixas em linguagem natural, identifica sintomas relevantes (ex.: humor deprimido, ansiedade, ideação suicida), classifica nível de risco (alto/médio/baixo/minimo).
